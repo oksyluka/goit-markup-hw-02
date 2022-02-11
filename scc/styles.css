@@ -1,0 +1,159 @@
+:root {
+  --background: #e5e5e5;
+  --title-color: #212121;
+  --text-color: #757575;
+  --active-color: #2196f3;
+}
+
+body {
+  background-color: var(--background);
+  font-family: Roboto;
+}
+ul {
+  list-style: none;
+}
+
+/* Хедер */
+.header {
+}
+.header-logo {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 400;
+}
+.logo-first {
+  color: var(--active-color);
+}
+.site-page {
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+.site-page:active,
+.site-page:hover,
+.site-page:focus {
+  color: var(--active-color);
+}
+.header-contactlink {
+  color: var(--text-color);
+  font-size: 14px;
+}
+.header-contactlink:hover,
+.header-contactlink:focus {
+  color: var(--active-color);
+}
+
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+.hero-button {
+  background-color: var(--active-color);
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--title-color);
+}
+
+/* Особенности */
+.features-maintitle {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-title {
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.features-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Специализация и Команда*/
+.activity-title,
+.team-title {
+  color: var(--title-color);
+  font-size: 36px;
+}
+.team-name {
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.team-position {
+  color: var(--text-color);
+  font-size: 16px;
+}
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+}
+.adress {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+}
+.footer-contactlink {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+}
+.adress:hover,
+.adress:focus,
+.footer-contactlink:hover,
+.footer-contactlink:focus {
+  color: var(--active-color);
+}
+
+/* Портфолио */
+.filter-button {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--active-color);
+  color: #ffffff;
+}
+.project-title {
+  color: var(--title-color);
+  font-size: 18px;
+  line-height: 2;
+}
+project-type {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
